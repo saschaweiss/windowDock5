@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFB53E62E6CF299009A14DB /* AXSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FAFB53E52E6CF299009A14DB /* AXSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA8CDEB62E5F353E00C927BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8CDE9F2E5F353C00C927BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8CDEA62E5F353C00C927BB;
+			remoteInfo = windowDock5;
+		};
+		FA8CDEC02E5F353E00C927BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA8CDE9F2E5F353C00C927BB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA8CDEA62E5F353C00C927BB;
+			remoteInfo = windowDock5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA13609D2E6D22F50023FB07 /* SkyLight */ = {isa = PBXFileReference; lastKnownFileType = text; name = SkyLight; path = ../../../System/Library/PrivateFrameworks/SkyLight.framework/SkyLight; sourceTree = "<group>"; };
+		FA13609F2E6D24870023FB07 /* SkyLight.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SkyLight.framework; path = ../../../System/Library/PrivateFrameworks/SkyLight.framework; sourceTree = "<group>"; };
+		FA8CDEA72E5F353C00C927BB /* windowDock5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = windowDock5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8CDEB52E5F353E00C927BB /* windowDock5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowDock5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8CDEBF2E5F353E00C927BB /* windowDock5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = windowDock5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		FA348DD82E61E95600F4101C /* Exceptions for "windowDock5" folder in "windowDock5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = FA8CDEA62E5F353C00C927BB /* windowDock5 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		FA8CDEA92E5F353C00C927BB /* windowDock5 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				FA348DD82E61E95600F4101C /* Exceptions for "windowDock5" folder in "windowDock5" target */,
+			);
+			path = windowDock5;
+			sourceTree = "<group>";
+		};
+		FA8CDEB82E5F353E00C927BB /* windowDock5Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = windowDock5Tests;
+			sourceTree = "<group>";
+		};
+		FA8CDEC22E5F353E00C927BB /* windowDock5UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = windowDock5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8CDEA42E5F353C00C927BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFB53E62E6CF299009A14DB /* AXSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8CDEB22E5F353E00C927BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8CDEBC2E5F353E00C927BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA348D172E5F529E00F4101C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA13609F2E6D24870023FB07 /* SkyLight.framework */,
+				FA13609D2E6D22F50023FB07 /* SkyLight */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8CDE9E2E5F353C00C927BB = {
+			isa = PBXGroup;
+			children = (
+				FA8CDEA92E5F353C00C927BB /* windowDock5 */,
+				FA8CDEB82E5F353E00C927BB /* windowDock5Tests */,
+				FA8CDEC22E5F353E00C927BB /* windowDock5UITests */,
+				FA348D172E5F529E00F4101C /* Frameworks */,
+				FA8CDEA82E5F353C00C927BB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8CDEA82E5F353C00C927BB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8CDEA72E5F353C00C927BB /* windowDock5.app */,
+				FA8CDEB52E5F353E00C927BB /* windowDock5Tests.xctest */,
+				FA8CDEBF2E5F353E00C927BB /* windowDock5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8CDEA62E5F353C00C927BB /* windowDock5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8CDEC92E5F353E00C927BB /* Build configuration list for PBXNativeTarget "windowDock5" */;
+			buildPhases = (
+				FA8CDEA32E5F353C00C927BB /* Sources */,
+				FA8CDEA42E5F353C00C927BB /* Frameworks */,
+				FA8CDEA52E5F353C00C927BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				FA8CDEA92E5F353C00C927BB /* windowDock5 */,
+			);
+			name = windowDock5;
+			packageProductDependencies = (
+				FAFB53E52E6CF299009A14DB /* AXSwift */,
+			);
+			productName = windowDock5;
+			productReference = FA8CDEA72E5F353C00C927BB /* windowDock5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA8CDEB42E5F353E00C927BB /* windowDock5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8CDECC2E5F353E00C927BB /* Build configuration list for PBXNativeTarget "windowDock5Tests" */;
+			buildPhases = (
+				FA8CDEB12E5F353E00C927BB /* Sources */,
+				FA8CDEB22E5F353E00C927BB /* Frameworks */,
+				FA8CDEB32E5F353E00C927BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8CDEB72E5F353E00C927BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA8CDEB82E5F353E00C927BB /* windowDock5Tests */,
+			);
+			name = windowDock5Tests;
+			packageProductDependencies = (
+			);
+			productName = windowDock5Tests;
+			productReference = FA8CDEB52E5F353E00C927BB /* windowDock5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA8CDEBE2E5F353E00C927BB /* windowDock5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8CDECF2E5F353E00C927BB /* Build configuration list for PBXNativeTarget "windowDock5UITests" */;
+			buildPhases = (
+				FA8CDEBB2E5F353E00C927BB /* Sources */,
+				FA8CDEBC2E5F353E00C927BB /* Frameworks */,
+				FA8CDEBD2E5F353E00C927BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA8CDEC12E5F353E00C927BB /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				FA8CDEC22E5F353E00C927BB /* windowDock5UITests */,
+			);
+			name = windowDock5UITests;
+			packageProductDependencies = (
+			);
+			productName = windowDock5UITests;
+			productReference = FA8CDEBF2E5F353E00C927BB /* windowDock5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8CDE9F2E5F353C00C927BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					FA8CDEA62E5F353C00C927BB = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					FA8CDEB42E5F353E00C927BB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA8CDEA62E5F353C00C927BB;
+					};
+					FA8CDEBE2E5F353E00C927BB = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = FA8CDEA62E5F353C00C927BB;
+					};
+				};
+			};
+			buildConfigurationList = FA8CDEA22E5F353C00C927BB /* Build configuration list for PBXProject "windowDock5" */;
+			developmentRegion = de;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = FA8CDE9E2E5F353C00C927BB;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				FAFB53E42E6CF273009A14DB /* XCRemoteSwiftPackageReference "AXSwift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = FA8CDEA82E5F353C00C927BB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8CDEA62E5F353C00C927BB /* windowDock5 */,
+				FA8CDEB42E5F353E00C927BB /* windowDock5Tests */,
+				FA8CDEBE2E5F353E00C927BB /* windowDock5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8CDEA52E5F353C00C927BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8CDEB32E5F353E00C927BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8CDEBD2E5F353E00C927BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8CDEA32E5F353C00C927BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8CDEB12E5F353E00C927BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8CDEBB2E5F353E00C927BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA8CDEB72E5F353E00C927BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8CDEA62E5F353C00C927BB /* windowDock5 */;
+			targetProxy = FA8CDEB62E5F353E00C927BB /* PBXContainerItemProxy */;
+		};
+		FA8CDEC12E5F353E00C927BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA8CDEA62E5F353C00C927BB /* windowDock5 */;
+			targetProxy = FA8CDEC02E5F353E00C927BB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FA8CDEC72E5F353E00C927BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /System/Library/PrivateFrameworks;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OBJC_BRIDGING_HEADER = "// WindowDock5-Bridging-Header.h\n#import \"SkyLightBridge.h\"";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA8CDEC82E5F353E00C927BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = PS56DBS345;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = /System/Library/PrivateFrameworks;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OBJC_BRIDGING_HEADER = "// WindowDock5-Bridging-Header.h\n#import \"SkyLightBridge.h\"";
+			};
+			name = Release;
+		};
+		FA8CDECA2E5F353E00C927BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = windowDock5/windowDock5.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Core/Windows";
+				INFOPLIST_FILE = windowDock5/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saschaweiss.windowDock5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/windowDock5/Bridging/WindowDock5-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		FA8CDECB2E5F353E00C927BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = windowDock5/windowDock5.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/Core/Windows";
+				INFOPLIST_FILE = windowDock5/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saschaweiss.windowDock5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/windowDock5/Bridging/WindowDock5-Bridging-Header.h";
+				SWIFT_VERSION = 6.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+		FA8CDECD2E5F353E00C927BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saschaweiss.windowDock5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowDock5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/windowDock5";
+			};
+			name = Debug;
+		};
+		FA8CDECE2E5F353E00C927BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saschaweiss.windowDock5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/windowDock5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/windowDock5";
+			};
+			name = Release;
+		};
+		FA8CDED02E5F353E00C927BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saschaweiss.windowDock5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = windowDock5;
+			};
+			name = Debug;
+		};
+		FA8CDED12E5F353E00C927BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = PS56DBS345;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saschaweiss.windowDock5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = windowDock5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8CDEA22E5F353C00C927BB /* Build configuration list for PBXProject "windowDock5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8CDEC72E5F353E00C927BB /* Debug */,
+				FA8CDEC82E5F353E00C927BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8CDEC92E5F353E00C927BB /* Build configuration list for PBXNativeTarget "windowDock5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8CDECA2E5F353E00C927BB /* Debug */,
+				FA8CDECB2E5F353E00C927BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8CDECC2E5F353E00C927BB /* Build configuration list for PBXNativeTarget "windowDock5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8CDECD2E5F353E00C927BB /* Debug */,
+				FA8CDECE2E5F353E00C927BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8CDECF2E5F353E00C927BB /* Build configuration list for PBXNativeTarget "windowDock5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8CDED02E5F353E00C927BB /* Debug */,
+				FA8CDED12E5F353E00C927BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAFB53E42E6CF273009A14DB /* XCRemoteSwiftPackageReference "AXSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/tmandry/AXSwift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAFB53E52E6CF299009A14DB /* AXSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAFB53E42E6CF273009A14DB /* XCRemoteSwiftPackageReference "AXSwift" */;
+			productName = AXSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FA8CDE9F2E5F353C00C927BB /* Project object */;
+}
